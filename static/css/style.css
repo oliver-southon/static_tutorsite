@@ -126,7 +126,7 @@ nav li {
 
 #section-question {
     display: grid;
-    height: 100vh;
+    height: 100%;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 0.1fr 0.8fr 0.1fr;
     background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
@@ -220,8 +220,5 @@ footer {
     font-weight: lighter;
 }
 
-#section-tutoring main button {
-    background-color: whitesmoke;
-    color: black;
-}
+
 
