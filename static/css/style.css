@@ -183,7 +183,7 @@ footer {
 @media only screen and (max-width:550px){
     #section-question {
         grid-template-columns: 1fr;
-        grid-template-rows: 0.2fr 0.8fr 2fr 0.5fr;
+        grid-template-rows: 0.1fr 0.1fr 2fr 0.2fr;
         grid-template-areas: 
         "nav"
         "sidebar"
