@@ -192,3 +192,36 @@ footer {
     }
 }
 
+/* -- TUTORING -- */
+
+#section-tutoring {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.1fr 0.8fr 0.1fr;
+    background-image: linear-gradient(315deg, #949494 0%, #ebebeb 74%);
+
+
+
+    grid-template-areas: 
+    "nav nav nav nav"
+    "sidebar main main ad"
+    "footer footer footer footer";
+    grid-gap: 0.2rem;
+    color: black;
+    /* text-shadow: -0.75px 0.75px 0 #000,
+                    0.75px 0.75px 0 #000,
+                 0.75px 0.75px 0 #000,
+                -0.75px -0.75px 0 #000; */
+}
+
+#section-tutoring main {
+    background-color: #76d8ff;
+    font-weight: lighter;
+}
+
+#section-tutoring main button {
+    background-color: whitesmoke;
+    color: black;
+}
+
