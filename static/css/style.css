@@ -32,6 +32,10 @@ h1 {
 
 /* ----- BUTTONS ------ */
 
+.btn {
+    padding-bottom: 2%;
+}
+
 .btn:link,
 .btn:visited {
     display: inline-block;
